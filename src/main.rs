@@ -21,7 +21,7 @@ fn main() -> std::io::Result<()> {
     let work_entry: Vec<WorkEntry> = serde_json::from_str(&work_str).unwrap();
 
     let proj_fmt = "<div class='project-item'><h3>{name}</h3><ul>{descr}</ul>{extra}</div>";
-    let work_fmt = "<div class='experience-item'><h3>{name}</h3><p>{timespan} | {location}</p><ul>{descr}</ul>{extra}</div>";
+    let work_fmt = "<div class='experience-item'><h3>{name}</h3><p>{location} | {timespan}</p><ul>{descr}</ul>{extra}</div>";
 
     let proj_parse = ProjectParse::from_entries(proj_entry, proj_fmt.to_string());
     let work_parse = WorkParse::from_entries(work_entry, work_fmt.to_string());
