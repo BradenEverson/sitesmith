@@ -5,8 +5,8 @@ edition = "2021"
 authors = ["Braden Everson <bradeneverson@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "An automated personal site generator!"
-homepage = "github.com/BradenEverson/sitesmith"
-repository = "github.com/BradenEverson/sitesmith"
+homepage = "https://github.com/BradenEverson/sitesmith"
+repository = "https://github.com/BradenEverson/sitesmith"
 keyworks = ["cli"]
 categories = ["command-line-utilities"]
 
