@@ -89,10 +89,10 @@ The HTML template should include placeholders for the projects and work experien
     </header>
     <main>
         <section id="projects">
-            {{projects}}
+            {projects}
         </section>
         <section id="work">
-            {{work}}
+            {work}
         </section>
     </main>
     <footer>
@@ -102,7 +102,14 @@ The HTML template should include placeholders for the projects and work experien
 </html>
 ```
 
-The placeholders `{{projects}}` and `{{work}}` will be replaced with the generated HTML content for the projects and work experience respectively.
+The placeholders `{projects}` and `{work}` will be replaced with the generated HTML content for the projects and work experience respectively.
+
+## Example
+
+You can see a live example of a website generated using SiteSmith [here](https://bradeneverson.github.io/).
+
+The source code for this example is available on GitHub: [bradeneverson.github.io](https://github.com/BradenEverson/bradeneverson.github.io).
+
 
 ## Contributing
 
