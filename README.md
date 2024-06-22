@@ -1,4 +1,4 @@
-# SiteSmith
+# SiteSmith 🛠️
 [![crates.io](https://img.shields.io/crates/v/sitesmith.svg)](https://crates.io/crates/sitesmith)
 
 SiteSmith is a Rust CLI tool designed to generate a personal website. It reads project and work experience data from JSON files and uses a template to create an HTML website.
